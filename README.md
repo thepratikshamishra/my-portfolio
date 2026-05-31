@@ -26,6 +26,12 @@ Designed with a clean UI, responsive layouts, smooth animations, and a minimal a
 * **Styling Features:** CSS Variables, Animations, Modern UI Design
 * **Tools:** Git, GitHub, VS Code
 
+---
+
+## 🚀 Live Website
+
+🌍 Live Demo:
+https://thepratikshamishra.github.io/my-portfolio/
 
 ---
 
