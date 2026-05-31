@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pratiksha Mishra — Aspiring Data Scientist</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <span class="nav-logo">Pratiksha.</span>
+  <button class="hamburger" onclick="toggleNav()"><span></span><span></span><span></span></button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="project.html">Projects</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="contact.html" class="nav-cta">Hire Me</a></li>
+  </ul>
+</nav>
+
+<section class="hero fade-in">
+  <div class="hero-text">
+    <div class="hero-badge"><span class="dot"></span> Open to internships & opportunities</div>
+    <h1>Hi, I'm<br><em>Pratiksha Mishra</em></h1>
+    <p class="hero-sub">Aspiring Data Scientist & BCA Student — turning data into insights with Python, SQL & analytical thinking.</p>
+    <div class="hero-actions">
+      <a href="project.html" class="btn btn-primary">View My Projects →</a>
+      <a href="resume.html" class="btn btn-outline">See Resume</a>
+    </div>
+    <div class="stats-row">
+      <div class="stat"><div class="stat-num">5+</div><div class="stat-label">Projects</div></div>
+      <div class="stat"><div class="stat-num">6+</div><div class="stat-label">Technologies</div></div>
+      <div class="stat"><div class="stat-num">2026</div><div class="stat-label">BCA · Year 2</div></div>
+    </div>
+  </div>
+  <div class="hero-image">
+    <div class="avatar-wrap">
+      <img src="https://avatars.githubusercontent.com/u/204059699?s=400&u=8e9912a1818c60fcb34f4c238cab5c7b8e9e3f36&v=4" alt="Pratiksha Mishra"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="avatar-placeholder" style="display:none;">👩‍💻</div>
+    </div>
+  </div>
+</section>
+
+<section class="skills-section">
+  <div class="inner">
+    <div class="section-header fade-in">
+      <span class="section-label">Expertise</span>
+      <h2 class="section-title">Skills & Tech Stack</h2>
+    </div>
+    <div class="skill-icon-grid fade-in">
+      <div class="skill-chip"><span class="skill-emoji">🐍</span><span>Python</span></div>
+      <div class="skill-chip"><span class="skill-emoji">🗄️</span><span>SQL</span></div>
+      <div class="skill-chip"><span class="skill-emoji">☕</span><span>Java</span></div>
+      <div class="skill-chip"><span class="skill-emoji">🌐</span><span>HTML & CSS</span></div>
+      <div class="skill-chip"><span class="skill-emoji">⚡</span><span>JavaScript</span></div>
+      <div class="skill-chip"><span class="skill-emoji">📊</span><span>NumPy & Pandas</span></div>
+      <div class="skill-chip"><span class="skill-emoji">📈</span><span>Data Visualization</span></div>
+      <div class="skill-chip"><span class="skill-emoji">🧹</span><span>Data Cleaning</span></div>
+      <div class="skill-chip"><span class="skill-emoji">🔥</span><span>Flask</span></div>
+      <div class="skill-chip"><span class="skill-emoji">🐬</span><span>MySQL</span></div>
+      <div class="skill-chip"><span class="skill-emoji">💾</span><span>SQLite</span></div>
+      <div class="skill-chip"><span class="skill-emoji">🐙</span><span>Git & GitHub</span></div>
+      <div class="skill-chip"><span class="skill-emoji">📓</span><span>Jupyter Notebook</span></div>
+      <div class="skill-chip"><span class="skill-emoji">💻</span><span>VS Code</span></div>
+      <div class="skill-chip"><span class="skill-emoji">🧠</span><span>OOP</span></div>
+      <div class="skill-chip"><span class="skill-emoji">🔗</span><span>Data Structures</span></div>
+      <div class="skill-chip"><span class="skill-emoji">🤖</span><span>Generative AI</span></div>
+      <div class="skill-chip"><span class="skill-emoji">💬</span><span>Prompt Engineering</span></div>
+    </div>
+  </div>
+</section>
+
+<footer><p>Crafted with care by <strong>Pratiksha Mishra</strong> · 2026</p></footer>
+
+<script>
+  function toggleNav() { document.getElementById('navLinks').classList.toggle('open'); }
+  const io = new IntersectionObserver(e => e.forEach(x => x.isIntersecting && x.target.classList.add('visible')), { threshold: 0.15 });
+  document.querySelectorAll('.fade-in').forEach(el => io.observe(el));
+
+</script>
+</body>
+</html>

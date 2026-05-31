@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Pratiksha Mishra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+  <span class="nav-logo">Pratiksha.</span>
+  <button class="hamburger" onclick="toggleNav()"><span></span><span></span><span></span></button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html" class="active">About</a></li>
+    <li><a href="project.html">Projects</a></li>
+    <li><a href="resume.html">Resume</a></li>
+    <li><a href="contact.html" class="nav-cta">Hire Me</a></li>
+  </ul>
+</nav>
+
+<div class="page-hero fade-in">
+  <h1>About Me</h1>
+  <p>A passionate learner building her path in data science, one project at a time.</p>
+</div>
+
+<div class="about-grid">
+  <div class="about-card fade-in">
+    <div class="about-img-wrap">
+      <img src="https://avatars.githubusercontent.com/u/204059699?s=400&u=8e9912a1818c60fcb34f4c238cab5c7b8e9e3f36&v=4" alt="Pratiksha Mishra"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="about-img-placeholder" style="display:none;">👩‍💻</div>
+    </div>
+    <h2>Who I Am</h2>
+    <p style="font-size:0.9rem; color:var(--text-mid); line-height:1.85;">
+      Hi! I'm <strong>Pratiksha Mishra</strong>, an aspiring Data Scientist currently pursuing my BCA from Siddharth University, UP. I love building projects that solve real problems using Python, data analysis, and logical thinking. Always eager to learn something new.
+    </p>
+    <div class="tech-tags" style="margin-top:1.4rem;">
+      <span class="tag">Python</span><span class="tag">SQL</span>
+      <span class="tag">Data Analysis</span><span class="tag">Problem Solving</span>
+    </div>
+  </div>
+
+  <div class="about-card fade-in">
+    <h2>Education</h2>
+    <div class="edu-item">
+      <span class="edu-year">2024 – Present</span>
+      <h3>Bachelor of Computer Applications (BCA)</h3>
+      <div class="school">Siddharth University, Siddharth Nagar, UP</div>
+      <p>Coursework: Python, Java, DBMS, Data Structures & Algorithms, Operating Systems, Computer Networks, Statistics.</p>
+    </div>
+    <div class="edu-item">
+      <span class="edu-year">2017 – 2024</span>
+      <h3>Class 6 to 12</h3>
+      <div class="school">Jawahar Navodaya Vidyalaya</div>
+      <p>Where curiosity was nurtured and a love for computers and mathematics first grew.</p>
+    </div>
+
+    <h2 style="margin-top:1.8rem;">Currently Learning</h2>
+    <div class="tech-tags" style="margin-top:1rem;">
+      <span class="tag">Data Analysis</span><span class="tag">NumPy & Pandas</span>
+      <span class="tag">Machine Learning</span><span class="tag">Flask</span>
+      <span class="tag">LLM Fundamentals</span>
+    </div>
+  </div>
+</div>
+
+<footer><p>Crafted with care by <strong>Pratiksha Mishra</strong> · 2026</p></footer>
+<script>
+  function toggleNav() { document.getElementById('navLinks').classList.toggle('open'); }
+  const io = new IntersectionObserver(e => e.forEach(x => x.isIntersecting && x.target.classList.add('visible')), { threshold: 0.15 });
+  document.querySelectorAll('.fade-in').forEach(el => io.observe(el));
+</script>
+</body>
+</html>
