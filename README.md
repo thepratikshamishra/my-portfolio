@@ -4,7 +4,7 @@ A modern multi-page developer portfolio built from scratch using **HTML, CSS, an
 
 Designed with a clean UI, responsive layouts, smooth animations, and a minimal aesthetic focused on readability and user experience.
 
----
+---    
      
 ## ✨ Features          
 
