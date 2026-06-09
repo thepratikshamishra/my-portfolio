@@ -9,7 +9,7 @@ Designed with a clean UI, responsive layouts, smooth animations, and a minimal a
 ## ✨ Features          
 
 * Responsive multi-page portfolio website 
-* Smooth scroll & fade-in animations                       
+* Smooth scroll & fade-in animations                          
 * Mobile-friendly navigation menu
 * Dedicated About, Projects, Resume & Contact pages
 * Downloadable resume section
