@@ -1,4 +1,4 @@
-# 🌐 Personal Portfolio — Pratiksha Mishra
+# 🌐 Personal Portfolio — Pratiksha Mishra  
 
 A modern multi-page developer portfolio built from scratch using **HTML, CSS, and JavaScript** to showcase my projects, technical skills, resume, and growing journey in tech.       
 
